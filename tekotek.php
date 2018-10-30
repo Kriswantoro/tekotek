@@ -19,9 +19,9 @@
 		$a = 99;
 		while ($a >=1){
 			if($a%2 == 0){
-				echo "<p class='ganjil'>Mati satu tinggal $a</p>";
-			}else{
 				echo "<p class='genap'>Mati satu tinggal $a</p>";
+			}else{
+				echo "<p class='ganjil'>Mati satu tinggal $a</p>";
 			}
 			echo "<br>";
 			$a--;
